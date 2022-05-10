@@ -1,0 +1,14 @@
+taskKey="com.codegym.task.task14.task1419"\n\nException invasion
+
+
+Populate the list exceptions with ten (10) different exceptions.
+The first exception is already implemented in the initExceptions method.
+
+
+Требования:
+1.	The list exceptions must contain 10 elements.
+2.	All items in the list exceptions must be exceptions (descendants of the Throwable class).
+3.	All items in the list exceptions must be unique.
+4.	The initExceptions method must be static.
+
+

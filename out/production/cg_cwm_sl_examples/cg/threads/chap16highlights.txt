@@ -1,0 +1,155 @@
+REMEMBER:
+
+16_12:
+public class Solution {
+// volatile is used to force threads referencing it to use the value from memory, and not any cached
+// local copy that they could have.
+    public static volatile boolean isStopped = false;
+
+
+/////////////////////////////////////////////////////
+See notion or site for notes.
+
+
+
+
+
+
+
+///01///public static class TestThread implements Runnable{}
+
+classes that implement Runnable have to be manually placed into a thread, but must have variable name on creation
+here as task:
+        TestThread task = new TestThread();
+        new Thread(task).start();
+
+so task.join();
+----------------------------
+///02///public static class PrintListThread extends Thread{}
+
+// classes that extend Thread can be created without variable names, the parent Thread can be named with a super call
+// when created:
+
+new PrintListThread("harry");
+   public PrintListThread(String name) {
+        super(name);
+    }
+
+    so harry.join()
+
+    instead of generic PrintListThread.join()
+
+---------------------------------------------------------------
+
+
+
+
+
+The main thread runs the main method and ends.
+It is analogous to the run() method of a child thread.
+
+To tell a thread the specific method it should
+start we need to pass a method into it.
+///////////////////////////
+Achieve this with the runnable interface:
+///////////////////////////
+class Printer implements Runnable
+{
+private String name;
+public Printer(String name)
+{
+this.name = name;
+}
+public void run()
+{
+System.out.println("I’m " + this.name);
+}
+}
+
+// Create two threads both based on its own Printer obj:
+
+public static void main(String[] args)
+{
+Printer printer1 = new Printer("Nick");
+Thread thread1 = new Thread(printer1);
+thread1.start();
+
+Printer printer2 = new Printer("Jack");
+Thread thread2 = new Thread(printer2);
+thread2.start();
+}
+
+// Or threads can be based on same object:
+public static void main(String[] args)
+{
+Printer printer = new Printer("Natasha");
+
+Thread thread1 = new Thread(printer);
+thread1.start();
+
+Thread thread2 = new Thread(printer);
+thread2.start();
+
+Thread thread3 = new Thread(printer);
+thread3.start();
+}
+
+// Or inherit Thread direct in you object.
+
+class Printer extends Thread
+{
+private String name;
+public Printer(String name)
+{
+this.name = name;
+}
+public void run()
+{
+System.out.println("I’m " + this.name);
+}
+}
+
+// then create two threads at the same time
+using your new object:
+
+public static void main(String[] args)
+{
+Printer printer = new Printer("Jack");
+printer.start();
+
+Printer printer2 = new Printer("Jack");
+printer2.start();
+
+}
+
+shortcomings:
+
+1) You may need to start several threads based on a single object, as in the example with Natasha.
+
+2) If you inherit from the Thread class, you can't add another parent class to your class.
+
+3) If your class has a parent class, you can't add Thread as a second parent class.
+
+/////////////////////////////////////////
+
+/////////////////////////////////////////
+
+*Java join() thread1.join();
+Whenever you need to wait for another thread to finish working, you need to call
+the join method."*
+
+Java join() is async like JS await the thread that calls join on another thread stops its own
+work and waits for the thread it calls to complete.
+
+JS .join() called e.g at end of a Map((element, index, array) => { elements changed}).join(" ");
+in order to join an array of elements together into one string.
+
+*For our purposes a Thread is comprised of two elements the actual thread object and the
+'execution environment' that it represents, where it does it's stuff, "The Thread".*
+
+////////////////////////////////////////
+
+///////////////////////////////////////
+
+
+

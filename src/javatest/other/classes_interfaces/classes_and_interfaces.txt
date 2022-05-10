@@ -1,0 +1,11 @@
+Java Classes and Interfaces measures knowledge of use of interfaces and about developing classes like:
+Object, Class, constructors,
+static nested classes,
+use of inner classes,
+wrapper classes,
+Optional,
+Spliterator,
+ClassLoader,
+Anonymous classes and
+Multithreaded Custom Class Loaders in Java SE versions
+9 to 12

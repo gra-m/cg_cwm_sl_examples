@@ -1,0 +1,11 @@
+Concurrency in Java
+ tests knowledge of process and thread execution,
+locks,
+thread synchronization,
+fork-join,
+immutable objects
+and CompletableFutures
+in Java SE versions 9 to 12. Core
+
+Notes:
+String and StringBuffer are thread-safe.

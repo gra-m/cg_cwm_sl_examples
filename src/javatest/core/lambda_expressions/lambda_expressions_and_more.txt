@@ -1,0 +1,10 @@
+Lambda Expressions explores usage of:
+lambda expressions
+to implement Comparator and other functional interfaces;
+understanding of Predicates,
+Consumers, (Functional interface (One method interface).
+Functions,
+Suppliers,
+BinaryOperators,
+and usage of lambdas with collections
+in Java SE versions 9 to 12. Core

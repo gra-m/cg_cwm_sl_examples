@@ -1,0 +1,18 @@
+Fix four mistakes
+1. Think about what the main method does.
+2. Create static methods initList(List<Number> list), printListValues(List<Number> list), and processCastObjects(List<Number> list) in the Solution class.
+3. Find the block of code that fills the list with values  move it to the initList method.
+4. Find the block of code that uses a for loop to display the contents of the list, and move it to the printListValues.
+5. Find the block of code that checks the type of each object of the list and displays messages on the screen, and move it to the processCastObjects method.
+6. Correct 2 bugs in the printListValues  so that the method correctly displays the contents of the list passed as an argument.
+7. Correct 2 bugs related to type casting in the processCastObjects method
+- for a Float object, you need to display "Is float defined? " + !(<Float object>.isNaN()).
+- for a Double object, you need to print "Is double infinite? " + <Double object>.isInfinite().
+
+
+Requirements:
+1. The Solution class must implement static methods initList(List<Number> list), printListValues(List<Number> list), and processCastObjects(List<Number> list).
+2. The initList method must fill the resulting list with random values.
+3. The printListValues  should display the contents of the resulting list.
+4. The processCastObjects method should analyze the list items and display text for Float and Double objects in accordance with the task
+conditions.items and display text for Float and Double objects in accordance with the task conditions.

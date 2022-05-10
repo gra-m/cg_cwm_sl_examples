@@ -1,0 +1,22 @@
+taskKey="com.codegym.task.task14.task1410"\n\nWine tasting
+
+
+1. Create an abstract Drink class with an implemented public void taste() method that displays &quot;Delicious&quot;.
+2. Create a Wine class that inherits Drink and implements a public String getCelebrationName() method that returns &quot;Birthday&quot;.
+3. Create a SparklingWine class that inherits Wine and implements a public String getCelebrationName() method that returns &quot;New Year&#39;s&quot;.
+4. Write implementations for the getDeliciousDrink, getWine, and getSparklingWine methods.
+5. All the classes must be in separate files.
+
+
+Требования:
+1.	The abstract Drink class must be in a separate file.
+2.	The Drink class must implement a public void taste() method that displays &quot;Delicious&quot;.
+3.	The Wine class must be in a separate file and be a descendant of the Drink class.
+4.	The Wine class must implement a public String getCelebrationName() method that returns &quot;Birthday&quot;.
+5.	The SparklingWine class must be in a separate file and be a descendant of the Wine class.
+6.	The SparklingWine class must implement a public String getCelebrationName() method that returns &quot;New Year&#39;s&quot;.
+7.	The Solution class must implement the getDeliciousDrink() method, which returns a Wine object.
+8.	The Solution class must implement the getWine() method, which returns a Wine object.
+9.	The Solution class must implement the getSparklingWine() method, which returns a SparklingWine object.
+
+

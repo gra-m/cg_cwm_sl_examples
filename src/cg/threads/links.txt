@@ -1,0 +1,4 @@
+Try these 3 videos, they helped me with unhandled exceptions:
+1. https://www.youtube.com/watch?v=7yM890QoSD8&list=PL1ZYhU1nPNh-ZzXrhaXhsNhrb9SlTtMJd&index=4&ab_channel=JavaJ2EEChamp
+2. https://www.youtube.com/watch?v=1UOSwTfWNIc&list=PL1ZYhU1nPNh-ZzXrhaXhsNhrb9SlTtMJd&index=3&t=1s&ab_channel=JavaJ2EEChamp
+3. https://www.youtube.com/watch?v=JlVPbxrVrck&list=PL1ZYhU1nPNh-ZzXrhaXhsNhrb9SlTtMJd&index=2&ab_channel=JavaJ2EEChamp

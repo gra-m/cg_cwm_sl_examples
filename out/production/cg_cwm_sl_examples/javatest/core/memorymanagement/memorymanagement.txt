@@ -1,0 +1,8 @@
+Java Memory Management measures understanding of the issues around memory use in Java SE versions
+9 to 12, covering heap allocation, memory leaks, garbage collection and use of finalizers.
+
+GC
+An object is no longer reachable (and so eligible for GC) when one of two situations occurs:
+
+The object no longer has any references pointing to it.
+All references to the object have gone out of scope.

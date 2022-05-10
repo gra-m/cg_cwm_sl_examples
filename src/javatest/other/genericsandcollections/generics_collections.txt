@@ -1,0 +1,4 @@
+Generics and Collections evaluates understanding of
+generics in Java SE versions 9 to 12, primarily the
+creation and use of generic collections.
+Type Inference for Generic Instance Creation.

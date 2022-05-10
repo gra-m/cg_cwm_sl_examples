@@ -1,0 +1,27 @@
+taskKey="com.codegym.task.task15.task1503"\n\nOOP: Cars
+
+
+1. Only use variables from the Constants class in your output.
+2. In the Ferrari class, implement the printlnDesire method so that it displays &quot;I want to drive a Ferrari&quot;.
+3. In the GeoMetro class, implement the printlnDesire method so that it displays &quot;I want to drive a Geo Metro&quot;.
+4. Create a public static LuxuryCar class.
+5. Create a public static CheapCar class.
+6. Make the Ferrari and GeoMetro classes inherit CheapCar or LuxuryCar. Think about which class would be appropriate for each of them.
+7. In the LuxuryCar class, implement the printlnDesire method so that it displays &quot;I want to drive a luxury car&quot;.
+8. In the CheapCar class, implement the printlnDesire method so that it displays &quot;I want to drive a cheap car&quot;.
+9. In the LuxuryCar and CheapCar classes, set different access modifier for the printlnDesire method
+so that the visibility is expanded in the Ferrari and GeoMetro classes.
+
+
+Требования:
+1.	The Solution class must contain the public static LuxuryCar class.
+2.	The Solution class must contain the public static CheapCar class.
+3.	The Ferrari class must be a descendant of the LuxuryCar class.
+4.	The GeoMetro class must be a descendant of the CheapCar class.
+5.	The printlnDesire method in the LuxuryCar class should display &quot;I want to drive a luxury car&quot;.
+6.	The printlnDesire method in the CheapCar class should display &quot;I want to drive a cheap car&quot;.
+7.	The printlnDesire method in the Ferrari class should display &quot;I want to drive a Ferrari&quot;.
+8.	The printlnDesire method in the GeoMetro class should display &quot;I want to drive a Geo Metro&quot;.
+9.	The visibility of the printlnDesire methods in the Ferrari and GeoMetro classes should be wider than in their parent classes.
+
+

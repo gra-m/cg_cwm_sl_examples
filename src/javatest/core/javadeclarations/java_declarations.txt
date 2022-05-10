@@ -1,0 +1,3 @@
+Java Declarations explores the declaration of core Java artifacts: instance, static and local variables of
+various types, methods, classes and interfaces, binary literals, Underscores in Numeric Literals,
+understanding of Java keywords, and type annotations in Java SE versions 9 to 12. Core

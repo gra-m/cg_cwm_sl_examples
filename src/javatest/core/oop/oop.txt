@@ -1,0 +1,9 @@
+Object Orientation in Java identifies knowledge of the key concepts
+of object-oriented programming
+applied to Java SE versions 9 to 12:
+object identity,
+encapsulation,
+coupling,
+inheritance,
+overloading,
+overriding and polymorphism. Core
