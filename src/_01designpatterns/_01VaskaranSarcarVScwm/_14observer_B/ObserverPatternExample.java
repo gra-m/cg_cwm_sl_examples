@@ -1,5 +1,22 @@
 package _01designpatterns._01VaskaranSarcarVScwm._14observer_B;
 
+
+/**
+ * This note created by Gra_m on 2022 05 22
+ *
+ * GOF: Define a one-to-many dependency between objects so that when one object changes state, all of its dependents
+ * are notified and updated automatically.
+ *
+ * IN A NUTSHELL: Using this pattern a subject can notify multiple observers at the same time.
+ *
+ * CONCEPT: Many observer objects observe a subject object. Observers register themselves to a subject in order to
+ * be notified of when there is a change within their subject. If their interest in the subject has run its course they
+ * may simply unregister from their subject. Also referred to as the publish-subscribe pattern.
+ *
+ *
+ */
+
+
 public class ObserverPatternExample {
     public static void main(String[] args) {
         Subject subject01 = new Subject();
