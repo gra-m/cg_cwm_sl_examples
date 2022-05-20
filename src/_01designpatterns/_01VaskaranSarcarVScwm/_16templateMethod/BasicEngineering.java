@@ -40,7 +40,7 @@ public abstract class BasicEngineering {
 
 	public void additionalCourse() {
 		if(confirmSuccessfulCompletion())
-			System.out.println("2a.Additional Course successfully completed");
+			System.out.println("2a.kAdditional Course successfully completed");
 	}
 
 
