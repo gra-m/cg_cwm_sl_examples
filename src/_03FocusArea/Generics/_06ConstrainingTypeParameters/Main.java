@@ -1,4 +1,4 @@
-package _03FocusArea._06ConstrainingTypeParameters;
+package _03FocusArea.Generics._06ConstrainingTypeParameters;
 
 
 /**

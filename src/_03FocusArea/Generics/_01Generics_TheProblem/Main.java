@@ -1,4 +1,4 @@
-package _03FocusArea._01Generics_TheProblem;
+package _03FocusArea.Generics._01Generics_TheProblem;
 
 
 /**

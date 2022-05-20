@@ -1,4 +1,4 @@
-package _03FocusArea._03GenericSolution01;
+package _03FocusArea.Generics._03GenericSolution01;
 
 
 

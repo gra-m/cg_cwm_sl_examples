@@ -1,4 +1,4 @@
-package _03FocusArea._02BadSolution01;
+package _03FocusArea.Generics._02BadSolution01;
 
 
 /**

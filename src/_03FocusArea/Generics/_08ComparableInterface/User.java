@@ -1,4 +1,4 @@
-package _03FocusArea._08ComparableInterface;
+package _03FocusArea.Generics._08ComparableInterface;
 
 /**
  * Created by Gra_m on 2022 05 20
