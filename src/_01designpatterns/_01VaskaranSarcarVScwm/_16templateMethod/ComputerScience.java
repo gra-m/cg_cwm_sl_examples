@@ -11,4 +11,11 @@ public class ComputerScience extends BasicEngineering{
 		if(confirmSuccessfulCompletion())
 			System.out.println("3.Object-Oriented-Programming successfully completed");
 	}
+
+	@Override
+	protected Boolean additionalCourseRequired() {
+		return false;
+	}
+
+
 	}

@@ -17,6 +17,8 @@ public abstract class BasicEngineering {
 		//Common:
 		completeMath();
 		completeSoftSkills();
+		if(additionalCourseRequired())
+			additionalCourse();
 		//Special/Individual:
 		completeSpecialPaper();
 	}
@@ -36,8 +38,19 @@ public abstract class BasicEngineering {
 			System.out.println("2.SoftSkills successfully completed");
 	}
 
+	public void additionalCourse() {
+		if(confirmSuccessfulCompletion())
+			System.out.println("2a.Additional Course successfully completed");
+	}
 
+
+	//just added when following original to give more depth
 	protected Boolean confirmSuccessfulCompletion(){
+		return true;
+	}
+
+	//Hook that returns true by default
+	protected Boolean additionalCourseRequired() {
 		return true;
 	}
 

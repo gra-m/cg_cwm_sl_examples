@@ -12,4 +12,9 @@ public class WigWamScience extends BasicEngineering {
 		if(confirmSuccessfulCompletion())
 			System.out.println("3.Wigwamification of quantum particles successfully completed");
 	}
+
+	@Override
+	protected Boolean additionalCourseRequired() {
+		return false;
+	}
 }
