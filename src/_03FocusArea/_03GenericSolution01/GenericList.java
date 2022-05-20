@@ -32,7 +32,8 @@ public class GenericList<T> {
 		return null;
 	}
 
-	public Object[] getGenericArray() {
+	//public T[] causes ClassCastException
+	public T[] getGenericArray() {
 		return genericArray;
 	}
 
@@ -45,5 +46,9 @@ public class GenericList<T> {
 		return "GenericList{" +
 				"genericArray=" + Arrays.toString(genericArray) +
 				'}';
+	}
+
+	public Object[] returnGenericArrayAsObjectArray() {
+		return genericArray;
 	}
 }

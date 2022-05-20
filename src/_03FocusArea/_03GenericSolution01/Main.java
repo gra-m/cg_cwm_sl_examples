@@ -17,7 +17,15 @@ public class Main {
 		//list.add(5); error now shows as checked exception
 
 		System.out.println(list2);
-		System.out.println(list2.getGenericArray().length);
+		try {
+			System.out.println(list2.getGenericArray().length);
+		}catch(ClassCastException e) {
+			System.out.println("ClassCastException caught here");
+			e.printStackTrace();
+		}finally {
+			System.out.println("Getting array then length returned as an object instead:");
+			System.out.println(list2.returnGenericArrayAsObjectArray().length);
+		}
 
 		
 
