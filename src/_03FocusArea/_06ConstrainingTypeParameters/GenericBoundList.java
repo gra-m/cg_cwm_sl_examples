@@ -1,4 +1,4 @@
-package _03FocusArea._03GenericSolution01;
+package _03FocusArea._06ConstrainingTypeParameters;
 
 import java.util.Arrays;
 
@@ -6,14 +6,15 @@ import java.util.Arrays;
  * Created by Gra_m on 2022 05 18
  */
 
-class GenericList<T> {
+// Class Parameter Constraint: Type must extend Number
+class GenericBoundList<T extends Number> {
 
 	private T[] genericArray;
 
 	private int count;
 
-	public GenericList(int startSize) {
-		genericArray = (T[]) new Object[startSize];
+	public GenericBoundList(int startSize) {
+		genericArray = (T[]) new Number[startSize];
 	}
 
 	public void add(T addToArray) {
