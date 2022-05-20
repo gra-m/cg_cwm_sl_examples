@@ -21,8 +21,8 @@ public class Utils {
 		System.out.println("Printing user" + user);
 	}
 
-	public static void printListOfUsers(GenericList<User> users) {
-
+	public static void printListOfUsers(GenericList<?> users) {
+		System.out.println(users);
 	}
 
 }
