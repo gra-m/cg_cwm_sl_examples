@@ -21,8 +21,17 @@ public class Utils {
 		System.out.println("Printing user" + user);
 	}
 
-	public static void printListOfUsers(GenericList<?> users) {
+	//<?> creates a anon T under the hood a 'capture class'
+	// To restrict to User or any of its subtypes: <? extends User>
+	// Java compiler will create CAP#1 extends User to match
+	public static void printListOfUsers(GenericList<? extends User> users) {
 		System.out.println(users);
+		// Now we can read from list:
+		User x = users.getByIndex(0);
+
+		// but we cannot add to it:
+		users.add(new User(34));
+
 	}
 
 }

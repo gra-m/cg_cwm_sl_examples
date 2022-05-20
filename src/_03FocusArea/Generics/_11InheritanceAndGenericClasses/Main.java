@@ -12,8 +12,6 @@ public class Main {
 
 		Utils.printUser(user);
 
-		//This is a problem because GenericList<Instructor> is not a subclass of GenericList<User>
-		// there is only GenericList<User>.
 		var users = new GenericList<Instructor>(10);
 
 		Utils.printListOfUsers(users);
