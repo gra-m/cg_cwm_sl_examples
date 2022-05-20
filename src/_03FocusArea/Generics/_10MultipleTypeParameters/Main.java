@@ -11,7 +11,7 @@ public class Main {
 
 		System.out.println(max);
 
-		Utils.print("hello", 45);
+		Utils.print("hello", "Now value generic too");
 
 
 	}
