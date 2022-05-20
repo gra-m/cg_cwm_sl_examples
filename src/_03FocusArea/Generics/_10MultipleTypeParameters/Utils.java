@@ -13,7 +13,7 @@ public class Utils {
 		return first.compareTo(second) < 0 ? second : first;
 	}
 
-/*	public static <T> void print(T key, int value){
+	public static <T> void print(T key, int value){
 		System.out.println(key + " = " + value);
-	}*/
+	}
 }

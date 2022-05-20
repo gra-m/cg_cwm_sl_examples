@@ -2,7 +2,7 @@ package _03FocusArea.Generics._10MultipleTypeParameters;
 
 
 /**
- * Created by Gra_m on 2022 05 18
+ * Created by Gra_m on 2022 05 20
  */
 
 public class Main {
@@ -11,7 +11,7 @@ public class Main {
 
 		System.out.println(max);
 
-		//Utils.print("hello", 45);
+		Utils.print("hello", 45);
 
 
 	}
