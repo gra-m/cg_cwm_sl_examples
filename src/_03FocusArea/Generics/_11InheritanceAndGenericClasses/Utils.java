@@ -24,13 +24,15 @@ public class Utils {
 	//<?> creates a anon T under the hood a 'capture class'
 	// To restrict to User or any of its subtypes: <? extends User>
 	// Java compiler will create CAP#1 extends User to match
-	public static void printListOfUsers(GenericList<? extends User> users) {
+	public static void printListOfUsers(GenericList<? super User> users) {
 		System.out.println(users);
-		// Now we can read from list:
-		User x = users.getByIndex(0);
+		// cannot retrieve as User anymore, Java Compiler does not know if compatible:
+		//User x = users.getByIndex(0);
+	//Does know compatible with Object though
+		Object x = users.getByIndex(0);
 
-		// but we cannot add to it:
-		users.add(new User(34));
+		// but we can now add to it:
+		users.add(new Instructor(34));
 
 	}
 

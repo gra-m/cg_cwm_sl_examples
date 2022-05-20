@@ -12,7 +12,8 @@ public class Main {
 
 		Utils.printUser(user);
 
-		var users = new GenericList<Instructor>(10);
+		// Object and super so we can add to list in printListOfUsers method.
+		var users = new GenericList<Object>(10);
 
 		Utils.printListOfUsers(users);
 
