@@ -7,6 +7,13 @@ package _03FocusArea._09GenericUtilityMethods;
 
 public class Main {
 	public static void main(String[] args) {
+		var max = Utils.max(46, 45);
+
+		System.out.println(max);
+
+		var maxUser = Utils.max(new User(10), new User(20));
+
+		System.out.println(maxUser.toString());
 
 	}
 }
