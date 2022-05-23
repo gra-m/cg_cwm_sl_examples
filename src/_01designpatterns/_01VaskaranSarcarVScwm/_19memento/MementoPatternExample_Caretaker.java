@@ -2,11 +2,11 @@ package _01designpatterns._01VaskaranSarcarVScwm._19memento;
 
 /**
  * Created by Gra_m on 2022 05 21
- * <p>
+ *
  * GOF:
  * Without violating encapsulation, capture and externalize an objects internal state so that the object can be restored
  * to this state later.
- * <p>
+ *
  * IN A NUTSHELL:
  * Achieving support for undo operations means recording the internal state of an object, but objects generally
  * encapsulate their states, you do not want to violate this encapsulation, so, memento pattern.
